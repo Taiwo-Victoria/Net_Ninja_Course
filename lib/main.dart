@@ -13,13 +13,25 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // To remove debug sign on the emulator
       debugShowCheckedModeBanner: false,
+      // creating the app whole interface
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-              'TITLE'
+              'COLUMN'
           ),
-
+        ),
+        // to show a test in d app
+        body:  Center(
+          child: Container(
+            child: Text(
+            'I AM A BLESSED CHILD',
+            style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 35.0,
+            ),
+          ),
+      ),
         ),
       ),
     );
