@@ -33,6 +33,7 @@ class MyApp extends StatelessWidget {
             style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 35.0,
+              fontFamily: 'IndieFlower',
             ),
           ),
          ),
