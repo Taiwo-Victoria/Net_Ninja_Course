@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
       // creating the app whole interface
       home: Scaffold(
         appBar: AppBar(
+          // The top details
           centerTitle: true,
+          // To put the text in the center
           title: Text(
               'COLUMN'
           ),
@@ -31,7 +33,13 @@ class MyApp extends StatelessWidget {
             fontSize: 35.0,
             ),
           ),
-      ),
+         ),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: (){},
+          child: Text(
+              'Click It'
+          ),
         ),
       ),
     );
