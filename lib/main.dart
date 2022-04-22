@@ -15,12 +15,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // creating the app whole interface
       home: Scaffold(
+        backgroundColor: Colors.grey,
         appBar: AppBar(
           // The top details
           centerTitle: true,
           // To put the text in the center
+          backgroundColor: Colors.purple[600],
           title: Text(
-              'COLUMN'
+              '#1'
           ),
         ),
         // to show a test in d app
@@ -38,8 +40,9 @@ class MyApp extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           onPressed: (){},
           child: Text(
-              'Click It'
+              'Click'
           ),
+          backgroundColor: Colors.deepOrangeAccent,
         ),
       ),
     );
