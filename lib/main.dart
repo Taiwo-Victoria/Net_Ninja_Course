@@ -17,11 +17,13 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-              'TITLE'
+              'hmmmm'
           ),
-
+          ),
+        body: Image(
+          image: AssetImage('images/omo1.jpg'),
         ),
-      ),
+        ),
     );
   }
 }
